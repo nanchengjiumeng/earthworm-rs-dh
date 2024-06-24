@@ -1,5 +1,5 @@
 {
-  "name": "rs-qy-win32-x64-msvc",
+  "name": "@node-automation-kit/rs-qy-win32-x64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"
@@ -14,5 +14,9 @@
   "license": "MIT",
   "engines": {
     "node": ">= 10"
+  },
+  "scripts": {
+    "pub": "npm publish --registry http://dream-ok.tpddns.cn:10014/",
+    "unpub": "npm unpublish @node-automation-kit/rs-qy-win32-x64-msvc --registry http://dream-ok.tpddns.cn:10014/ -f"
   }
 }
